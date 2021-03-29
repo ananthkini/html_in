@@ -1,0 +1,21 @@
+.board{
+    width: 400px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    border: 15px solid #828282;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.row{
+    height : 60px;
+    display: flex;
+    flex-direction: row;
+}
+.square{
+    height:60px;
+    width:60px;
+}
+.black{
+    background-color: black;
+}
